@@ -1,0 +1,294 @@
+/* googl2 font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&family=Roboto&display=swap");
+/********************************* * ! Style rules for defult **********************************/
+ * {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     list-style: none;
+     text-transform: capitalize;
+}
+ body {
+     font-family: "Poppins", sans-serif;
+     font-family: "Roboto", sans-serif;
+}
+ html {
+     scroll-behavior: smooth;
+}
+/********************************* * ! Style rules for common **********************************/
+ .container {
+     width: 1100px;
+     margin: auto;
+}
+ .btn {
+     border-radius: 33px;
+     padding: 12px 36px 12px 36px;
+     background-color: #21b573;
+     color: #fff;
+     transition: 0.5s;
+     font-family: Roboto;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 19px;
+}
+ .btn:hover {
+     background-color: #fd511a;
+}
+/********************************* * ! Style rules for header **********************************/
+ header {
+     background-color: #f0fff0;
+}
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 38px;
+}
+ .logo {
+     margin-top: 38px;
+}
+ nav ul {
+     display: flex;
+}
+ nav ul li {
+     margin: 0 30px;
+}
+ nav ul li a {
+     font-family: Poppins;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: black;
+     transition: 0.5s;
+}
+ nav ul li a:hover {
+     color: #21b573;
+}
+ .sign-in-btn {
+     font-family: Roboto;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 19px;
+     border-radius: 33px;
+     padding: 12px 28px 12px 28px;
+     background-color: #21b573;
+     color: #fff;
+}
+ .hero-box {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .hero-image {
+     height: 346px;
+     width: 554px;
+     margin: 80px 0 60px 0;
+}
+ .hero-text h5 {
+     font-family: Poppins;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #fd511a;
+}
+ .hero-text h1 {
+     font-family: Poppins;
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 70px;
+     letter-spacing: 0em;
+     text-align: left;
+     margin: 10px 0 19px 0;
+}
+ .hero-text p {
+     font-family: Poppins;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 36px;
+     color: black;
+     margin: 14px 0;
+}
+ .span-h1 {
+     color: #21b573;
+}
+/********************************* * ! Style rules for first sec **********************************/
+ .parent {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     padding: 50px 0;
+}
+ .card {
+     height: 218px;
+     width: 270px;
+     text-align: center;
+     border-radius: 10px;
+     padding-top: 52px;
+}
+ .card h3 {
+     font-family: Poppins;
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 36px;
+     color: #413960;
+     margin: 22px 0 5px 0;
+}
+ .card p {
+     font-family: Poppins;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     color: #585859;
+}
+ .card img {
+     width: 66px;
+}
+ .card:hover, .active {
+     box-shadow: 0px 20px 40px 0px #0000001a;
+     border-radius: 10px;
+}
+/********************************* * ! Style rules for courses sec **********************************/
+ .course-sec h2 {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 54px;
+     text-align: center;
+     margin-bottom: 52px;
+     color: #413960;
+}
+ .img-parent img {
+     width: 331px;
+}
+ .cours-card-parent {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+     margin-bottom: 50px;
+}
+ .course-card {
+     padding: 24px 20px;
+     background: #ffffff;
+     box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.1);
+     border-radius: 18px;
+}
+ .course-card h3 {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 36px;
+     margin: 19px 0 3px 10px;
+     color: #413960;
+}
+ .course-card p {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     padding: 0 0 19px 10px;
+     color: #585859;
+}
+ .option {
+     display: flex;
+     justify-content: space-between;
+}
+ .vec-icon {
+     display: flex;
+}
+ .people {
+     display: flex;
+}
+ .option p {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     color: #585859;
+}
+ .couse-btn {
+     padding: 8px 28px;
+     gap: 10px;
+     border: none;
+     margin: 0 0 23px 10px;
+     color: #fff;
+     background: #21b573;
+     border-radius: 33px;
+}
+/********************************* * ! Style rules for testomonial sec **********************************/
+ .testo-sec {
+     width: 700px;
+     margin: auto;
+}
+ .testo-sec h2 {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 54px;
+     text-align: center;
+     margin-bottom: 76px;
+     color: #000000;
+}
+ .testo-card {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 50px;
+     margin-bottom: 127px;
+}
+ .testo-card p {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 30px;
+     color: #000000;
+}
+ .testo-card img {
+     width: 120px;
+}
+ footer {
+     background-color: #282531;
+}
+ .footer-parent {
+     display: flex;
+     justify-content: space-between;
+     padding: 55px 0 76px 0;
+}
+ .footer-parent p {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 30px;
+     color: #ffffff;
+}
+ .course {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 30px;
+     color: #ffffff;
+}
+ .copy {
+     text-align: center;
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 30px;
+     color: #cdcdcd;
+     padding-bottom: 27px;
+}
+ 
